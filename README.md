@@ -2,7 +2,14 @@
 
 **Course:** DAT 2025  
 **Institution:** CPH Business Academy, Lyngby  
-**Team Members:** Kamilla, Jeanette, Alberte, Juvena, Felicia
+**Group Members:** Kamilla, Jeanette, Alberte, Juvena, Felicia
+
+---
+
+## Feedback for moderator 
+By clicking this link you can view a google docs file where each group member has written their feedback for the Moderator. Just click on a group members name in the menu to the left.
+
+https://docs.google.com/document/d/1L6qfNpk3U535JQsXDJuy-SeXQDQ6648tX9VZY33LJOs/edit?usp=sharing
 
 ---
 
