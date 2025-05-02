@@ -67,7 +67,7 @@ To run the Streamlit dashboard locally, follow these steps:
    In the terminal, run the following command to install all necessary packages:
 
    ```bash
-   pip install streamlit pandas numpy matplotlib seaborn plotly scipy scikit-learn
+   pip install streamlit pandas numpy matplotlib seaborn plotly scipy scikit-learn requests beautifulsoup4 transformers
    ```
 
 4. **Run the App**  
@@ -79,4 +79,3 @@ To run the Streamlit dashboard locally, follow these steps:
 
    This will open a local Streamlit web app in your browser.  
    You can also run these commands in any other terminal (e.g. Windows Terminal, macOS Terminal) as long as your Python environment is activated.
-
