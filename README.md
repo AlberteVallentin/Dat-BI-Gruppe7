@@ -7,7 +7,7 @@
 ---
 
 ## Feedback for moderator 
-By clicking this link you can view a google docs file where each group member has written their feedback for the Moderator. Just click on a group members name in the menu to the left.
+By clicking this link you can view a google docs file where each group member has written their feedback for the Moderator. Just click on a group member's name in the menu to the left.
 
 https://docs.google.com/document/d/1L6qfNpk3U535JQsXDJuy-SeXQDQ6648tX9VZY33LJOs/edit?usp=sharing
 
@@ -52,3 +52,31 @@ A mini project exploring **wine quality data**, using Python for data analysis a
 - Power BI (visual reporting)
 
 ---
+
+## Running the Streamlit App
+
+To run the Streamlit dashboard locally, follow these steps:
+
+1. **Open Anaconda Navigator**  
+   Launch Anaconda and open **VSCode** from within Anaconda.
+
+2. **Navigate to the `Streamlit` Folder**  
+   In VSCode, open a terminal and make sure you're in the `Streamlit` directory of the project.
+
+3. **Install Required Packages**  
+   In the terminal, run the following command to install all necessary packages:
+
+   ```bash
+   pip install streamlit pandas numpy matplotlib seaborn plotly scipy scikit-learn
+   ```
+
+4. **Run the App**  
+   Once dependencies are installed, launch the app with:
+
+   ```bash
+   streamlit run main.py
+   ```
+
+   This will open a local Streamlit web app in your browser.  
+   You can also run these commands in any other terminal (e.g. Windows Terminal, macOS Terminal) as long as your Python environment is activated.
+
