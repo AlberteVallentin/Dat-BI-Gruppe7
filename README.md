@@ -6,6 +6,11 @@
 
 ---
 
+## Feedback for moderator 
+https://docs.google.com/document/d/1L6qfNpk3U535JQsXDJuy-SeXQDQ6648tX9VZY33LJOs/edit?usp=sharing
+
+---
+
 ## Project Overview
 
 This repository contains an overview of mini projects completed as part of the Business Intelligence course. All projects are developed using **Jupyter Notebooks** and focus on key data science skills including preprocessing, exploration, and visualisation.
