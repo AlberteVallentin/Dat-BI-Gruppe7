@@ -50,6 +50,7 @@ A mini project exploring **wine quality data**, using Python for data analysis a
 - Jupyter Notebook  
 - Python (pandas, matplotlib, seaborn, etc.)  
 - Power BI (visual reporting)
+- Collaborative programming
 
 ---
 
