@@ -42,12 +42,14 @@ def plot_feature_violin(df, feature):
     fig, ax = plt.subplots(figsize=(8, 6))
     
     sns.violinplot(
-        data=df, 
-        x='wine_type', 
-        y=feature,
-        palette=['darkred', 'gold'],
-        ax=ax
-    )
+    data=df, 
+    x='wine_type', 
+    y=feature,
+    hue='wine_type',
+    palette=['darkred', 'gold'],
+    legend=False,
+    ax=ax
+)
     
     ax.set_title(f'Distribution of {feature} by Wine Type')
     ax.set_xlabel('Wine Type')

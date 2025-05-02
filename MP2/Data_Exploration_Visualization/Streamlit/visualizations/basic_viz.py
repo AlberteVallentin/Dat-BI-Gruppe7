@@ -107,31 +107,36 @@ def plot_boxplots(df, features, ncols=3):
     """
     Plot boxplots for selected features by wine type
     """
-    # Calculate number of rows based on features and columns
     nrows = (len(features) + ncols - 1) // ncols
-    
-    fig, axes = plt.subplots(nrows, ncols, figsize=(ncols*5, nrows*4))
+    fig, axes = plt.subplots(nrows, ncols, figsize=(ncols * 5, nrows * 4))
     axes = axes.flatten()
-    
+
     for i, feature in enumerate(features):
         if i < len(axes):
             sns.boxplot(
                 data=df,
                 x='wine_type',
                 y=feature,
+                hue='wine_type',
                 palette=['darkred', 'gold'],
                 ax=axes[i]
             )
             axes[i].set_title(f'{feature} by Wine Type')
             axes[i].set_xlabel('Wine Type')
             axes[i].set_ylabel(feature)
-    
-    # Hide unused subplots
+
+        
+            legend = axes[i].get_legend()
+            if legend is not None:
+                legend.remove()
+
     for j in range(len(features), len(axes)):
         fig.delaxes(axes[j])
-    
+
     plt.tight_layout()
     return fig
+
+
 
 def plot_ph_bin_distribution(bin_counts):
     """

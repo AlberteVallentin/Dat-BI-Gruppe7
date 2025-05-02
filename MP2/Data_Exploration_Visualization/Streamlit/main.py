@@ -55,6 +55,7 @@ Use the sidebar to navigate between different pages:
 3. **Feature Analysis** - Analyze individual features and their distributions
 4. **Feature Relationships** - Explore relationships between different features
 5. **3D Visualization** - View complex relationships in 3D visualizations
+6. **Wine Quality Factors** - Learn about non-numeric factors affecting wine quality
 """)
 
 # Information about wine quality
